@@ -7,7 +7,7 @@ The app.test.tsx was updated so the test passes.
 
 A serve script and server.js file has been added to add a crude post build server.
 
-Yarn has replaced npm
+Yarn has replaced npm for all except playwright an e2e test runner from Microsoft
 
 This is my prefered starting point for TDD 
 
@@ -28,6 +28,11 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npx playwright test`
+
+Launches the end to end test runner playwright 
+See [playwright e2e test runner ](https://playwright.dev/)
 
 ### `yarn run build`
 
