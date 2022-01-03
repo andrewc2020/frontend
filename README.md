@@ -9,6 +9,10 @@ A serve script and server.js file has been added to add a crude post build serve
 
 Yarn has replaced npm for all except playwright an e2e test runner from Microsoft
 
+A Dockerfile has been added which builds a production image.
+
+Run the image using a command such as docker run -d -p 8080:8080 andrewc2020/frontend
+
 This is my prefered starting point for TDD 
 
 
